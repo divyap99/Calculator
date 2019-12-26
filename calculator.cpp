@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-  int c;
-  float e,f;
-  char o;
-  cout<<"Enter the operators: ";
+  int c; // variable for output
+  float e,f; //variable for inputs
+  char o; //variable for operator
+  cout<<"Enter the operator: ";
   cin>>o;
-  if(o=='+'||'-'||'*')
+  if(o=='+'||'-'||'*') //to check whether the operator entered is desired one
     {
         cout<<"Enter the inputes: ";
         cin>>e>>f;
         int a=e;
         int b=f;
-        if(b==f && a==e)
+        if(b==f && a==e) //to check whether entered inputes are integers
         {
             if(o=='+')
              {
